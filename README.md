@@ -1,32 +1,33 @@
 # MÉZAN
 
-MÉZAN is a restaurant website and reservation platform. Guests can explore the menu, book a table from their phone, and receive a confirmation card with a QR code. Staff can find the reservation in their dashboard and confirm the guest’s arrival.
+A restaurant website with mobile reservations, QR confirmation cards, and a staff dashboard for check-in.
 
-Explore the live demo
+![MÉZAN homepage with a sunlit restaurant dining room and a link to book a table](screenshots/home.jpg)
 
-## Try the booking and check-in flow
+## From booking to check-in
 
-1. Open Reservations, choose a date, party size, and time, then confirm using the sample guest details.
-2. On the confirmation card, you can download the QR code, reschedule, or cancel the booking. Keep the booking reference for the next step.
-3. Open the Staff Dashboard in the same browser. Sign in with host@mezan.example and mezan-demo.
-4. In QR check-in, enter the booking reference or scan the QR displayed on another screen. Select Confirm arrival to see the reservation move to Arrived.
+| Mobile booking | QR confirmation |
+| --- | --- |
+| <img src="screenshots/mobile-booking.jpg" width="340" alt="MÉZAN mobile reservation form with date, guest count, and available times"> | <img src="screenshots/qr-confirmation.jpg" width="340" alt="MÉZAN reservation card for a fictional guest with a downloadable check-in QR code"> |
 
-The demo saves sample reservations in your browser. Email delivery is simulated, and no real table is booked.
+![MÉZAN staff dashboard showing a sample reservation marked Arrived](screenshots/staff-check-in.jpg)
+
+## Demo walkthrough
+
+1. The guest selects a date, party size, and time, then confirms with sample contact details.
+2. The confirmation card shows the reservation reference and a downloadable QR code. The guest can also reschedule or cancel from this card.
+3. Staff scan the QR code or enter the booking reference, review the details, and confirm arrival. The reservation then appears as **Arrived** in the dashboard.
+
+The demo shown here uses fictional reservations saved in the browser and simulated email delivery.
 
 ## What I built
 
 | Area | Features |
-|---|---|
+| --- | --- |
 | Restaurant website | Responsive home, story, menu, and visit pages |
-| Guest reservations | Availability by date and party size, contact validation, QR confirmation, rescheduling, and cancellation |
+| Reservation flow | Availability by date and party size, contact validation, QR confirmation, rescheduling, and cancellation |
 | Staff dashboard | Reservation search and status filters, QR check-in, and settings for service hours, booking rules, and table capacity |
 
-## Technology
+The site and dashboard use **Next.js, React, and CSS**. The full application uses **Express and PostgreSQL** for reservations and staff operations. The browser demo simulates those operations without a server or database.
 
-The website and staff dashboard use Next.js, React, and CSS. The full application uses Express and PostgreSQL for reservations and staff operations. The public demo runs on Vercel and simulates those operations in the browser.
-
-## Source and technical review
-
-This repository is a project showcase. The full implementation and Git history are private. I’m happy to walk through the architecture, reservation logic, and deployment setup during a technical review.
-
-If you add screenshots, put one strong image directly below the demo link. A mobile booking screen paired with the QR confirmation card would show the core experience at a glance.
+The full implementation and Git history are private. I’m happy to walk through the booking logic, staff workflow, and deployment setup in a technical review.
