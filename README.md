@@ -23,10 +23,17 @@ Small restaurants often take bookings by phone, Instagram messages or a paper no
 
 ## From booking to check-in
 
-| 1. Guest books on mobile | 2. Gets a QR confirmation | 3. Staff check them in |
-| --- | --- | --- |
-| <img src="screenshots/booking-mobile.jpg" width="260" alt="Mobile reservation form with date, party size and available times"> | <img src="screenshots/confirmation-qr.jpg" width="260" alt="Reservation confirmation card with a check-in QR code"> | <img src="screenshots/staff-guest.jpg" width="260" alt="Staff view of a guest's reservation with a Confirm arrival button"> |
-| Picks a date, party size and one of the times that are actually free. | Gets a booking reference, a QR code, and a private link to reschedule or cancel. | Staff scan the QR or type the reference, then confirm arrival. |
+<p align="center">
+  <img src="screenshots/booking-mobile.jpg" width="30%" alt="Mobile reservation form with date, party size and available times">
+  &nbsp;
+  <img src="screenshots/confirmation-qr.jpg" width="30%" alt="Reservation confirmation card with a check-in QR code">
+  &nbsp;
+  <img src="screenshots/staff-guest.jpg" width="30%" alt="Staff view of a guest's reservation with a Confirm arrival button">
+</p>
+
+1. **The guest books on their phone.** They pick a date, party size and one of the times that are actually free.
+2. **They get a QR confirmation.** It shows a booking reference, the QR code, and a private link to reschedule or cancel.
+3. **Staff check them in.** Staff scan the QR or type the reference, then confirm arrival.
 
 ![Staff dashboard showing the evening's reservations, a service summary and arrival progress](screenshots/staff-service.jpg)
 
