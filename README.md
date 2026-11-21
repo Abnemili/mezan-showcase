@@ -24,12 +24,6 @@ Small restaurants often take bookings by phone, Instagram messages or a paper no
 ## From booking to check-in
 
 <p align="center">
-  <img src="screenshots/walkthrough.gif" width="320" alt="Walkthrough: a guest books a table on a phone, receives a QR confirmation, then staff find the booking and confirm arrival">
-  <br>
-  <sub>The full flow on the live demo, in under 30 seconds</sub>
-</p>
-
-<p align="center">
   <img src="screenshots/booking-mobile.jpg" width="30%" alt="Mobile reservation form with date, party size and available times">
   &nbsp;
   <img src="screenshots/confirmation-qr.jpg" width="30%" alt="Reservation confirmation card with a check-in QR code">
